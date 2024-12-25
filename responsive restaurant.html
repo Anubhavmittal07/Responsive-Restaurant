@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Menu</title>
+    <link rel="stylesheet" href="responsive restaurant.css">
+</head>
+<body>
+    <header>
+        <img src="https://img.freepik.com/free-vector/hand-drawn-healthy-food-logo-template_23-2149641244.jpg" class="logo">
+        <h1 style="color: wheat;"><b>RESTAURANT MENU</b></h1>
+        <nav>
+            <ul>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#location">Location</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section class="menu" id="menu">
+            <h2>Our Menu</h2>
+            <div class="menu-item">
+                <img src="https://static.toiimg.com/photo/53188495.cms" alt="Dish Name" class="menu-image">
+                <div class="menu-details">
+                    <h3>Litti Chokha</h3>
+                    <p class="description"> Wheat dough balls stuffed with spiced sattu (roasted gram flour) served with a smoky, mashed vegetable blend of eggplant, tomato, and potato.</p>
+                    <p class="price">₹ 50</p>
+                </div>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROxFCaTKOJqo9Bud6T0MUygxr8aHHzbskCXw&s" class="menu-image">
+                <div class="menu-details">
+                    <h3>Aloo Parantha</h3>
+                    <p class="description">Dough rolled with a mixture of mashed potato and spices (amchur, garam masala). </p>
+                    <p class="price">₹ 50</p>
+                </div>
+                <br>
+                <img src="https://www.cookwithnabeela.com/wp-content/uploads/2024/02/AlooSamosa3.webp" class="menu-image">
+                <div class="menu-details">
+                    <h3>Samosa</h3>
+                    <p class="description"> Flaky crust and a filling of spiced vegetables.  </p>
+                    <p class="price">₹ 20</p>
+                </div>
+                
+            </div>
+            <div class="menu-item">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqVPi0AOSbAM_lWXvKtoRPW4tEtGEO4yVERw&s" class="menu-image">
+                <div class="menu-details">
+                    <h3>Kachouri</h3>
+                    <p class="description"> Made of maida and filled with a baked mixture of spices and ground dal or onions.</p>
+                    <p class="price">₹30</p>
+                </div>
+                <img src="https://static.toiimg.com/photo/96987875/96987875.jpg" class="menu-image">
+                <div class="menu-details">
+                    <h3>Chhola Bhatura</h3>
+                    <p class="description">Chole is made by cooking chickpeas with various spices, onions, tomatoes, and herbs. Bhatura is a puffy, leavened, deep-fried Indian bread made from maida.</p>
+                    <p class="price">₹100</p>
+                </div>
+                <br>
+                <img src="https://assets.bonappetit.com/photos/63cb14735125107865c0fe8f/1:1/w_2560%2Cc_limit/012023-pav-bhaji-lede.jpg" class="menu-image">
+                <div class="menu-details">
+                    <h3>Pav Bhaji</h3>
+                    <p class="description"> Spiced vegetable curry ("bhaji") made with mashed potatoes, tomatoes, onions, and a blend of aromatic spices. </p>
+                    <p class="price">₹ 70</p>
+                </div>
+                
+            </div>
+            
+        </section>
+
+        <section class="contact" id="contact">
+            <h2>Contact Us</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Feedback:</label>
+                <textarea id="message" placeholder="Enter your query" name="message" rows="4" required></textarea>
+
+                <button  type="submit">Send message</button>
+            </form>
+        </section>
+
+        <section class="location" id="location">
+            <h2>Our Location</h2>
+            <p>123 Food Street, Gourmet City</p>
+            <div id="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.8354345092264!2d-122.41941548468142!3d37.774929779759735!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80858064c2a2f5b7%3A0x4b7b1b0b1a4ef84f!2sFood%20Street!5e0!3m2!1sen!2sus!4v1682134567890!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Restaurant Menu. All rights reserved.</p>
+    </footer>
+
+    <script src="responsive restaurant.js"></script>
+</body>
+</html>
