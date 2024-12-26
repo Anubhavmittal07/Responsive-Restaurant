@@ -17,3 +17,8 @@ document.addEventListener("DOMContentLoaded", () => {
         contactForm.reset();
     });
 });
+document.getElementById('signupForm').addEventListener('submit', function(e) {
+    e.preventDefault();
+    alert('Sign-up successful!');
+    signupForm.reset();
+});
